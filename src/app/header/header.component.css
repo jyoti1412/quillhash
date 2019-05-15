@@ -1,0 +1,28 @@
+li {
+    margin-bottom: 10px;
+}
+
+.nav-link {
+    display: inline-block;
+    color:gray;
+    text-decoration: none;
+}
+
+.nav-link::after {
+    content: '';
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #000;
+    transition: width .3s;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+  /* transition: width .3s; */
+}
+
+ul{
+    position: relative;
+    right: -54%;
+}
