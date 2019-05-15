@@ -24,5 +24,28 @@ li {
 
 ul{
     position: relative;
-    right: -54%;
+    left:47%;
 }
+
+/* @media (min-width: 768px) and (max-width: 1024px){
+  
+  
+    
+  
+ul{
+    position: relative;
+    left:0;
+}
+} */
+
+@media (min-width: 481px) and (max-width: 767px) {
+   
+    ul{
+
+    
+    position: relative;
+       
+    left: 0;
+    }
+}
+
